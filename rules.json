@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["main_frame", "sub_frame"],
+      "urlFilter": "*://*.caddr.org/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        {
+          "header": "Content-Security-Policy",
+          "operation": "set",
+          "value": "script-src 'sha256-5XmtShGiJDRjokWNK4srdJq59bB5VhG10QjrK9dfA70=' 'strict-dynamic';"
+        }
+      ]
+    }
+  }
+]
