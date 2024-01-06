@@ -12,7 +12,7 @@
         {
           "header": "Content-Security-Policy",
           "operation": "set",
-          "value": "script-src 'sha256-5XmtShGiJDRjokWNK4srdJq59bB5VhG10QjrK9dfA70=' 'strict-dynamic';"
+          "value": "script-src 'sha256-RhYmlVuwh1coJ05Euy88WnoFxxI5Yr91b/DZCmL62xc=' 'strict-dynamic';"
         }
       ]
     }
